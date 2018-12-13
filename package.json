@@ -1,0 +1,26 @@
+{
+  "name": "express-enum-param",
+  "version": "0.1.0",
+  "description": "Middleware for ensuring that a request parameter can only assume certain values",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nukeop/express-enum-param.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "nukeop",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nukeop/express-enum-param/issues"
+  },
+  "homepage": "https://github.com/nukeop/express-enum-param#readme",
+  "dependencies": {
+    "express-http-errors-json": "^0.1.0",
+    "lodash.includes": "^4.3.0"
+  }
+}
